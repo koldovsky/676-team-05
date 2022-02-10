@@ -8,8 +8,6 @@
 </head>
 
 <body>
- 
-
     <!--Kralinskiy's block starts-->
     <header class="header">
         <nav class="header__nav">
@@ -31,7 +29,7 @@
         <div class="header__banner">
             <p class="header__banner-subtex">— Сomfortable driving in NYC</p>
             <h1 class="header__banner-h1">CAR RENTAL</h1>
-            <a href="#learn-more" class="header__banner-learn-more">Learn more</a>
+            <a href="#learn-more-header" class="header__banner-learn-more">Learn more</a>
             <a href="#pricing" class="header__banner-pricing">pricing</a>
             <img src="img/triangle.svg" width="20" height="20" alt="triangle">
         </div>
@@ -41,37 +39,43 @@
     </header>
     <!--Kralinskiy's block ends-->
     <!--Levchuk's block start-->
-    <section class="safe">
-        <div class="safe">
-            <p class="safe">— SAFE CAR RENTAL</p>
-        </div>
-        <div class="responsibility">
-            <h3 class="responsibility__block">Responsibility</h3>
-            <p class="responsibility__subtext">We know how important the safety of our customers is. Therefore, we are
-                doing everything possible so that there are no problems with our cars.</p>
-            <p class="responsibility__info">All cars that you can rent are equipped with active and passive security
-                systems. In addition, our cars are regularly inspected and serviced by an authorized dealer.</p>
-            <p class="responsibility__info">Personal accident insurance</p>
-            <p class="responsibility__info">Roadside assistance protection</p>
-            <p class="responsibility__info">Different options for financial responsibility</p>
-            <a href="#">LEARN MORE</a>
-            <img src="img/bluecar.png" alt="bluecar">
-        </div>
+    <section class="responsibility">
+        <p class="responsibility__safe">— SAFE CAR RENTAL</p>
+        <h2 class="responsibility__h2">Responsibility</h2>
+        <p class="responsibility__subtext">We know how important the safety of our customers is. Therefore, we are
+            doing everything possible so that there are no problems with our cars.</p>
+        <p class="responsibility__info">All cars that you can rent are equipped with active and passive security
+            systems. In addition, our cars are regularly inspected and serviced by an authorized dealer.</p>
+        <ul class="responsibility__info-subtex">
+            <li> Personal accident insurance</li>
+            <li>Roadside assistance protection</li>
+            <li>Different options for financial responsibility</li>
+        </ul>
+        <a href="#responsibility-learn-more">LEARN MORE</a>
+        <img src="img/bluecar.png" alt="blue car">
         <div class="responsibility__revue">
-            <p class="responsibility__revue__years">10</p>
-            <p class="responsibility__revue__years">Years of experience</p>
-            <p class="responsibility__revue__years"> We have the perfect reputation of a luxury car rental service.</p>
-            <p class="responsibility__revue__clients">450</p>
-            <p class="responsibility__revue__clients">Clients per month</p>
-            <p class="responsibility__revue__clients">We serve celebrities, entrepreneurs, tourists, etc.</p>
-            <p class="responsibility__revue__available">80</p>
-            <p class="responsibility__revue__available">Cars available</p>
-            <p class="responsibility__revue__available">You can pick up a car at any convenient location.</p>
+            <div class="responsibility__revue-years">
+                <p class="responsibility__revue-years-figure">10</p>
+                <h3 class="responsibility__revue-years-quality">Years of experience</h3>
+                <p class="responsibility__revue-years-info"> We have the perfect reputation of a luxury car rental
+                    service.</p>
+            </div>
+            <div class="responsibility__revue-client">
+                <p class="responsibility__revue-client-figure">450</p>
+                <h3 class="responsibility__revue-client-quality">Clients per month</h3>
+                <p class="responsibility__revue-client-info">We serve celebrities, entrepreneurs, tourists, etc.</p>
+            </div>
+            <div class="responsibility__revue-car">
+                <p class="responsibility__revue-car-figure">80</p>
+                <h3 class="responsibility__revue-car-quality">Cars available</h3>
+                <p class="responsibility__revue-car-info">You can pick up a car at any convenient location.</p>
+            </div>
         </div>
     </section>
     <!--Levchuk's block end-->
 
     <!--Volodymyr's block start-->
+    <!--наче все чьотко-->
     <section class="request__form">
         <div class="background__request__form">
             <img src="img/alfa_romeo_giulietta.jpg" width="1200" alt="alfa_romeo_giulietta">
@@ -81,25 +85,29 @@
             <p class="need__rent">Need to Rent a Luxury Car?</p>
             <p class="complete__form">Complete the form below and we'll contact you as soon as possible!</p>
         </div>
-        <div class="request__form__field">
-            <input type="name" placeholder="Enter your full name*">
-        </div>
-        <div class="request__form__field">
-            <input type="phone" placeholder="Enter your phone number*">
-        </div>
-        <div class="request__form__field">
-            <input type="email" placeholder="Enter your e-mail*">
-        </div>
-        <div class="request__form__field">
-            <input type="text" placeholder="Type your message">
+        <div class="form">
+            <div class="form__field">
+                <input type="text" placeholder="Enter your full name*">
+            </div>
+            <div class="form__field">
+                <input type="tel" placeholder="Enter your phone number*">
+            </div>
+            <div class="form__field">
+                <input type="email" placeholder="Enter your e-mail*">
+            </div>
+            <div class="form__field">
+                <input type="text" placeholder="Type your message">
+            </div>
         </div>
         <button class="request__form__button__text">REQUEST A QUOTE</button>
     </section>
     <!--Volodymyr's block end-->
+
     <!--Bonus starts-->
+    <!--я тут починав, але не продовжував, поки нема часу, візьму весь абзац в комент)-->
     <section class="brands">
         <p class="brands__p-top">— TOP MANUFACTURERS</p>
-        <h2 class="brands__h2">Brands</h2>
+        <h2 class="brands__main">Brands</h2>
         <p class="brands__subtext">Our fleet includes the best cars of the following brands.</p>
         <div class="brands__carousel">
             <article class="brands__carousel-slide">
@@ -114,10 +122,10 @@
     <!--Bonus ends-->
 
     <!--Vadim's block start-->
-
+    <!--В тебе замінив h3 na h2. Навіщо в класі прайсінг тире? і може href дати #rent-a-car ?-->
     <div class="pricing__block">
         <p class="-pricing__block-p">— RATES</p>
-        <h3 class="-pricing__block-h3">Clear Pricing</h3>
+        <h2 class="-pricing__block-h2">Clear Pricing</h2>
         <p class="pricing__block-p">You pay not for the model of the car but for its class. We offer not only the best
             luxury cars but also the most favorable conditions for any rental period.</p>
     </div>
@@ -156,48 +164,59 @@
 
     <!--Vadim's block end-->
     <!--Makarov's block start-->
- 
-        <div class="block">
-            <h3 class="name_block">— FEEDBACK</h3>
-            <h1 class="block_h1">Testimonials</h1><!-- класс должен быть одинакоый для всего сайта. -->
-            <p class="block_p">Every day, dozens of people go to work or travel by cars rented with FASTCAR.</p>
-        </div>
-        <div class="comment_page1"">   
-            <img src="img/1Jane_McCallan.png" alt="photo_clien_feedback">
-            <b>Jane McCallan </b>
-            <p class='user_post'>Marketing Director at Pepsi Co.</p>
-            <p class='user_feedback'>I am completely satisfied with the services of this company. I often rent cars with FASTCAR
-                for business meetings, driving to work, etc. I am pleased with the excellent technical condition of the cars,
-                favorable rental conditions. And the staff is always friendly.</p>   
-            </div>
-            <div class="comment_page2">     
-            <img src="img/Daniel_Gordons.png" alt="photo_clien_feedback">   
-            <b>Daniel Gordons</b>
-            <p class='user_post'>CEO at MyVent</p>
-            <p class='user_feedback'>When I was driving to one of the most important meetings in my life, my car broke down...
-                Only a few hours remained, and a new car was urgently needed. Thanks to the FASTCAR specialists, I managed to
-                quickly rent a luxury car. They immediately solved my problem.</p>
-            </div>
-            <div class="comment_page3"> 
-            <img src="img/Elizabeth_Smith.png" alt="photo_clien_feedback">
-            <b>Elizabeth Smith</b>
-            <p class='user_post'>Director of Media at Legal Company</p>
-            <p class='user_feedback'>I love sports cars and fast driving but I can’t buy such a car, it's too expensive.
-                Therefore, sometimes I rent sports cars to enjoy the speed. I choose this company because of the attractive
-                pricing policy and a wide selection of luxury vehicles.</p>
-        </div>
-        <!--Makarov's block end-->
+    <div class="block">
+        <p class="name_block">— FEEDBACK</p>
+        <!--мені здається краще назвати "block__name"-->
+        <h2 class="block_h1">Testimonials</h2>
+        <!-- класс должен быть одинакоый (і не містити цифр) для всего сайта. DA! Тому поставив <h2> і може назвати клас "block__estimonials"?-->
+        <p class="block_p">Every day, dozens of people go to work or travel by cars rented with FASTCAR.</p>
+    </div>
+    <div class="comment_page1">
+        <!--Потрібно прибрати цифри! - З класів і імен фото-->
+        <img src=" img/1Jane_McCallan.png" alt="photo_clien_feedback">
+        <b>Jane McCallan </b>
+        <!--Це ніхто уже не юза, краще просто <p>!-->
+        <p class='user_post'>Marketing Director at Pepsi Co.</p>
+        <p class='user_feedback'>I am completely satisfied with the services of this company. I often rent cars with
+            FASTCAR
+            for business meetings, driving to work, etc. I am pleased with the excellent technical condition of the
+            cars,
+            favorable rental conditions. And the staff is always friendly.</p>
+    </div>
+    <div class="comment_page2">
+        <!--Потрібно прибрати цифри! - З класів-->
+        <img src="img/Daniel_Gordons.png" alt="photo_clien_feedback">
+        <b>Daniel Gordons</b>
+        <p class='user_post'>CEO at MyVent</p>
+        <p class='user_feedback'>When I was driving to one of the most important meetings in my life, my car broke
+            down...
+            Only a few hours remained, and a new car was urgently needed. Thanks to the FASTCAR specialists, I managed
+            to
+            quickly rent a luxury car. They immediately solved my problem.</p>
+    </div>
+    <div class="comment_page3">
+        <!--Потрібно прибрати цифри! - З класів. І в назвах фото малі букви треба-->
+        <img src="img/Elizabeth_Smith.png" alt="photo_clien_feedback">
+        <b>Elizabeth Smith</b>
+        <p class='user_post'>Director of Media at Legal Company</p>
+        <p class='user_feedback'>I love sports cars and fast driving but I can’t buy such a car, it's too expensive.
+            Therefore, sometimes I rent sports cars to enjoy the speed. I choose this company because of the attractive
+            pricing policy and a wide selection of luxury vehicles.</p>
+    </div>
+    <!--Makarov's block end-->
+
     <!--Anna's block start-->
+    <!--Тут нічого не чіпав-->
     <section class="staff">
         <div class="container">
-             <div class="staff_title">
+            <div class="staff_title">
                 <div class="staff_title-top">--STAFF</div>
-        
-                <h2 class="staff_title-name">OUR TEAM</h2><div class="staff_title-content">These people do everything to ensure that you enjoy driving in a comfortable, safe, and good-looking
-        car.</div>
-        </div>
+                <h2 class="staff_title-name">OUR TEAM</h2>
+                <div class="staff_title-content">These people do everything to ensure that you enjoy driving in a
+                    comfortable, safe, and good-looking
+                    car.</div>
             </div>
-    
+        </div>
         <div class="staff_content">
              <div class="container">
         <div class="staff-items">
@@ -245,31 +264,22 @@
        
     
     </section>
-      
     <!--Anna's block end-->
+
     <!--Iryna's block start-->
     <div class="contacts__block">
-        <p class="contacts__block-p">Contacts</p>
+        <!--Як на мене краще просто "contacts", нащо той блок?)-->
+        <h2 class="contacts__block-p">Contacts</h2>
         <p class="contacts__block-p">130W "19th St, New York Ny 10111, USA</p>
         <a href="tel:+12345678900 class=" header__contacts__block-tel>+12345678900</a>
-        <a href="mailto:fastcar@email.com class=" header__contacts__block-email">fastcar@email.com</a>
+        <a href="mailto:fastcar@email.com" class="header__contacts__block-email">fastcar@email.com</a>
         <div class="header__nav-social-icons">
             <img src="img/facebook-icon.svg" width="30" height="30" alt="Facebook Icon">
             <img src="img/twitter-icon.svg" width="30" height="30" alt="Twitter Icon">
             <img src="img/youtube-icon.svg" width="30" height="30" alt="Youtube Icon">
             <a href="#">rent car</a>
         </div>
-        <!--Iryna's block end-->
-        <!--Makarov's block start-->
-        <!--Makarov's block end-->
-        <!--Iryna's second blosk start-->
-        <!--Iryna's second block end-->
-        <!--Iryna's block end-->
-        
-        <!--Iryna's second blosk start-->
-
-        <!--Iryna's second block end-->
-
 </body>
+<!--Видалив лишні коменти-->
 
 </html>
