@@ -3,6 +3,16 @@
     background-size: cover;
     min-height: 100vh;
 }
+.header__nav-menu > ul {
+    width: 90vw;
+    display: inline-flex;   
+    justify-content: right;
+    text-transform: uppercase;
+    }
+
+    .header__nav-social-icons > ul {
+       
+    }
 
 .header__banner-h1 {
     font-size: 8rem;
