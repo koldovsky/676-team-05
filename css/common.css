@@ -5,4 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --main-text-color: rgb(246, 196, 61);
+    --auxilary-text-color: rgb(0, 0, 0);
+    
+
 }
