@@ -1,8 +1,11 @@
 .header {
     background-image: url(../img/tesla.jpg);
     background-size: cover;
-    
-    }
+}
+
+.container {
+    display: flex;
+}
 
 .header__nav-menu {
     width: 90vw;
@@ -10,6 +13,7 @@
     justify-content: right;
     text-transform: uppercase;
     padding: 20px;
+    justify-content: space-between;
 }
 
 .header__nav-menu-item {
