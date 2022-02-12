@@ -2,13 +2,11 @@
     background-image: url(../img/tesla.jpg);
     background-size: cover;
     min-height: 100vh;
-
 }
 
 .header__banner-h1 {
     font-size: 8rem;
-    color: orange;
-   
+    color: orange;   
 }
 
 .header__banner-subtex {
