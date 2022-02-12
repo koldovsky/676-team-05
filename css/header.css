@@ -4,7 +4,35 @@ h1 {
     font-size: 8rem;
     color: orange;
     text-align: left;
-    margin: 20px;
-    }
+    margin: 20px;    
+}
 
+.header__banner-subtex {
+    color: black;
+}
+
+.header__banner_section {
+    border: 0;
+}
+
+.header__nav {
+    position: absolute;
+    z-index: 1;    
+}
+
+.header__banner {
+    position: absolute;
+    z-index: 1;   
+}
+
+.background__request__form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: inherit;
+}
     
