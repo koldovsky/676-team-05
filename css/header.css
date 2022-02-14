@@ -1,38 +1,17 @@
 .header {
     background-image: url(../img/tesla.jpg);
     background-size: cover;
+    background-position: 50% 50%;
+        
 }
 
-.container {
+.header__nav {
     display: flex;
-}
-
-.header__nav-menu {
-    width: 90vw;
-    display: inline-flex;   
-    justify-content: right;
-    text-transform: uppercase;
-    padding: 20px;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
-}
-
-.header__nav-menu-item {
-    color: var(--auxilary-text-color);
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.header__nav-menu-item:hover {
-    font-weight: bold;
-    text-decoration: underline;
-
-}
-
-.header__nav-logo {    
-    position: relative;
-    bottom: 30px;
-    margin: 5px;
     padding: 10px;
+
 }
 
 .header__banner-h1 {
@@ -43,12 +22,56 @@
     
 }
 
-.header__banner-subtex {
-    color: var(--auxilary-text-color);
+#header_logo {
+    box-sizing: border-box;
+    display: block;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.header__nav-social-icons {
+    display: flex;
+    flex-direction: flex-end;
+    width: 30px;
+    height: 30px;
 
 }
-@media (min-width: 990px) {
-    .header__nav > .container {
-        display: flex;
+
+.header__nav-menu {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.header__nav-menu-item {
+    color: var(--auxilary-text-color);
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+.header__nav-menu-item:hover {
+    font-weight: bold;
+    text-decoration: underline;
+@media (min-width: 600px) {
+        .header-nav > .container {
+            display: flex;
+        }
     }
 }
+
+.header__nav-logo {    
+    position: relative;
+    bottom: 30px;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.header__banner-subtex {
+    color: var(--auxilary-text-color);
+}
+
+
