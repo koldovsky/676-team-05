@@ -1,0 +1,19 @@
+.responsibility {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.responsibility__safe {
+color: #f6c43d;
+font-family: 'Ubuntu', sans-serif;
+}
+.responsibility__h2 {
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+ .responsibility__info {
+    color: gray;
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+    
