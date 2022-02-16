@@ -3,18 +3,19 @@
     padding: 120px 0;
 }
 .background__request__form {
-    max-width: 1600px;
+    display: flex;
+    width: 100%;
 }
 .form__header, form {
     display: block;
-    max-width: 570px;
-    max-height: 808px;
-    position: absolute;
+    min-width: 250px;
+    min-height: 100px;
+    position: relative;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: white;
+    background: rgba(255, 255, 255, 0.425);
 }
 .send__request {
     color: var(--main-text-color);
@@ -23,7 +24,7 @@
 }
 .need__rent {
     color: var(--auxilary-text-color);
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-weight: 700;
 }
@@ -32,21 +33,23 @@
     font-size: 20px;
     text-align: center;
 }
+.form {
+    display:block;
+}
 .request__form__button__text {
     display: inline-block;
     vertical-align: top;
-    padding: 2rem 2.5rem;
-    min-width: 170px;
+    padding: .7rem .7rem;
+    min-width: 100px;
     border: 1px solid grey;
-    border-radius: 2rem;
+    border-radius: 5rem;
     background: var(--main-text-color);
     cursor: pointer;
     font-family: inherit;
-    font-size: 2rem;
+    font-size: 1.2rem;
     line-height: 1.1;
     color: var(--auxilary-text-color);
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    transition: background .2s linear, color .2s linear;
 }
