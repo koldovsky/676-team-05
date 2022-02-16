@@ -5,7 +5,8 @@
 .background__request__form {
     max-width: 1600px;
 }
-.form__header {
+.form__header, form {
+    display: block;
     max-width: 570px;
     max-height: 808px;
     position: absolute;
@@ -14,4 +15,38 @@
     bottom: 0;
     left: 0;
     background: white;
+}
+.send__request {
+    color: var(--main-text-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+.need__rent {
+    color: var(--auxilary-text-color);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+.complete__form {
+    color: lightgray;
+    font-size: 20px;
+    text-align: center;
+}
+.request__form__button__text {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2rem 2.5rem;
+    min-width: 170px;
+    border: 1px solid grey;
+    border-radius: 2rem;
+    background: var(--main-text-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: var(--auxilary-text-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: background .2s linear, color .2s linear;
 }
