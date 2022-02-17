@@ -43,15 +43,19 @@
     margin-top: 30px;
 }
 .request__form__button__text {
-    padding: .7rem .7rem;
-    min-width: 100px;
-    border: 1px solid grey;
-    border-radius: 5rem;
-    background: var(--main-text-color);
+    padding: 15px 15px;
+    min-width: 150px;
+    border-radius: 30px;
+    background-color: var(--main-blu);
     cursor: pointer;
     font-family: inherit;
-    font-size: 1rem;
-    line-height: 1;
+    font-size: 16.5px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-stretch: 100%;
     text-decoration:none;
     text-align: center;
+}
+.request__form__button__text:hover {
+    background-color: var(--main-text-color);
 }
