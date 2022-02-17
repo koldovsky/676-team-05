@@ -4,41 +4,45 @@
     display: block;
     background-image: url(../img/tesla.png);
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 45% 55%;
  }
 
  .header__nav {
      display: flex;
      justify-content: space-between;
      width: 100%;
-     height: 70px;
+     height: 100px;
      align-items: center;
      
-
 }
 
  .header__nav-menu {
     display: flex;
-    flex-direction: row;    
-    padding: 20px;
-   
-   
+    flex-direction: row;
+    justify-content: center;
+    width: 1200px;    
+    padding: 20px;   
 }
 
- header .header__nav-menu-item {
+.header__nav-menu a {
+    color: var(--auxilary-text-color);
+    
+}
+
+.header__nav-menu-item {
      margin: 15px;
      text-transform: uppercase;  
     
 }
    
 #header__nav-logo {
-    display: flex; 
+    display: flex;   
     width: 100px;
     height: fit-content;
-    margin-left: 80px;
+   
 }
 
-header .header__nav-icons {
+.header__nav-icons {
     display: flex;
     flex-direction: row;
     height: fit-content;
@@ -60,10 +64,23 @@ header .header__nav-icons {
     flex-direction: column;
 
 }
+.header__banner-subtext {
+    color: var(--main-text-color);
+
+}
+
+.header__nav-menu-item:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--auxilary-text-color);
+}
 
 .header__banner-h1 {
     display: grid;
     grid-template-columns: min-content;
     vertical-align: baseline;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+    font-size: 200px;
 
 }
