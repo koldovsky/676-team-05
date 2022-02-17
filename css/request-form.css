@@ -6,21 +6,10 @@
     background-size: cover;
     background-position: 45% 55%;
 }
-
-    width: 100%;
-    height: auto;
-    justify-content: center;
-}
-.form__header, form {
+.form__header {
+    padding-top: 100px;
     display: block;
-    min-width: 250px;
-    min-height: 100px;
-    position:relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(255, 255, 255, 0.425);
+    justify-content: center;
 }
 .send__request {
     color: var(--main-text-color);
@@ -37,19 +26,23 @@
     color: lightgray;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 50px;
 }
 #form {
-    display: block;
-    position: absolute;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 .form__field {
-    margin-left: 45%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.request__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 .request__form__button__text {
-    margin-left: 45.7%;
-    display: inline-block;
-    vertical-align: top;
     padding: .7rem .7rem;
     min-width: 100px;
     border: 1px solid grey;
@@ -57,10 +50,8 @@
     background: var(--main-text-color);
     cursor: pointer;
     font-family: inherit;
-    font-size: 1.2rem;
-    line-height: 1.1;
-    color: var(--auxilary-text-color);
-    text-transform: uppercase;
-    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1;
+    text-decoration:none;
     text-align: center;
 }
