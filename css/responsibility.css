@@ -63,3 +63,129 @@
     margin-bottom: 30px;
     max-width: 100%;
 }
+.responsibility-third {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.responsibility-third__revue-figure {
+    font-weight: bold;
+    font-size: 70px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    color: var(--main-blu);
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: auto;
+}
+.responsibility-third_revue-quality {
+    font-size: 24px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+}
+.responsibility-third__revue-info {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(137, 137, 137);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.responsibility-first__contatact-buttom {
+    font-size: 16,5px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-stretch: 100%;
+    background-color: var(--main-blu);
+    padding: 15px 15px;
+    border-radius: 30px;
+    margin-left: 25px;
+    position: relative;
+    width: 170px;
+    text-align: center; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+esponsibility-first__contatact-buttom:hover {
+    background-color: var(--main-text-color);
+}
+.responsibility {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10% 15px 10%;
+}
+@media (min-width: 600px) {
+    .responsibility {
+     display: grid; 
+     grid-template-columns: 1fr 1fr 1fr;  
+    } 
+    .responsibility-second {
+        align-items: center;
+    }
+}
+.responsibility-first {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15%;
+}
+.responsibility-second {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.responsibility-first__safe {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #f6c43d;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.responsibility-first__h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.responsibility-first__subtext {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.responsibility-first__info, .responsibility-first__info-subtex {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(137, 137, 137);
+    margin-left: 25px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+.responsibility-third {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.responsibility-third__revue-info {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(137, 137, 137);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
