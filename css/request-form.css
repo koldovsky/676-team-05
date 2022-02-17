@@ -1,9 +1,12 @@
 .request__form {
     width: 100%;
-    padding: 120px 0;
+    min-height: 100vh;
+    display: block;
+    background-image: url(../img/alfa_romeo_giulietta.jpg);
+    background-size: cover;
+    background-position: 45% 55%;
 }
-.background__request__form {
-    display: flex;
+
     width: 100%;
     height: auto;
     justify-content: center;
@@ -12,7 +15,7 @@
     display: block;
     min-width: 250px;
     min-height: 100px;
-    position: relative;
+    position:relative;
     top: 0;
     right: 0;
     bottom: 0;
@@ -37,6 +40,8 @@
 }
 #form {
     display: block;
+    position: absolute;
+    z-index: 1;
 }
 .form__field {
     margin-left: 45%;
