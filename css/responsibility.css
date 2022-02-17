@@ -1,19 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Ubuntu:wght@300&display=swap');
 .responsibility {
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    margin: 15px 10% 15px 10%;
 }
-.responsibility__safe {
-color: #f6c43d;
-font-family: 'Ubuntu', sans-serif;
+    @media (min-widxt: 600px) {
+        .responsibility {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .responsibility-second {
+            align-items: center;
+        }
+    }
+.responsibility-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15%;
 }
-.responsibility__h2 {
-    color: black;
-    font-family: 'Barlow Condensed', sans-serif;
+.responsibility-second {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
- .responsibility__info {
-    color: gray;
-    font-family: 'Ubuntu', sans-serif;
- }
-
-    
+.responsibility-first__safe {
+    font-family: "Ubuntu" , sans-serif ;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: rgb(246, 196, 61);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.responsibility-first__h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.responsibility-first__subtext {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(34, 34, 34);
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.responsibility-first__info, .responsibility-first__info-subtex {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(137, 137, 137);
+    margin-left: 25px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
