@@ -7,9 +7,9 @@
     background-position: 45% 55%;
 }
 .form__header {
-    padding-top: 100px;
     display: block;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.753);
 }
 .send__request {
     color: var(--main-text-color);
@@ -22,20 +22,32 @@
     text-align: center;
     font-weight: 700;
 }
+.form {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.753);
+}
 .complete__form {
-    color: lightgray;
+    color: rgb(87, 84, 84);
     font-size: 20px;
     text-align: center;
     margin-bottom: 50px;
 }
-#form {
-    display: flex;
-    justify-content: center;
-}
 .form__field {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+}
+.form__decoration {
+    padding-left: 10px;
+    width: 400px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 30px;
+    border: 2px solid var(--main-blu);
+    transition: .3s border-color;
+    font-size: 16px;
+}
+.form__decoration:hover {
+    border: 2px solid var(--main-text-color);
 }
 .request__button {
     display: flex;
@@ -52,7 +64,6 @@
     font-size: 16.5px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    font-stretch: 100%;
     text-decoration:none;
     text-align: center;
 }
