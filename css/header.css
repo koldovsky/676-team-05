@@ -39,14 +39,24 @@ header .header__nav-icons {
     height: fit-content;
     margin: 5px;   
 }
+
+.header__nav-icons-item {
+    padding: 5px;
+}
   
 .header__nav-icons {
     display: flex;
-    flex-direction: row;
-    padding: 20px; 
+    padding: 5px; 
+}
+
+.header__banner {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .header__banner-h1 {
     display: grid;
     grid-template-columns: min-content;
+
 }
