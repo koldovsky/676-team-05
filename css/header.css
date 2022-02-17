@@ -62,10 +62,20 @@
 .header__banner {
     display: flex;
     flex-direction: column;
-
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 30px;
 }
+
 .header__banner-subtext {
-    color: var(--main-text-color);
+    color: var(--auxilary-text-color);
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__banner span {
+    color: var(--span);
 
 }
 
@@ -82,5 +92,5 @@
     color: var(--main-text-color);
     text-transform: uppercase;
     font-size: 200px;
-
 }
+
