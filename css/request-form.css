@@ -5,6 +5,8 @@
 .background__request__form {
     display: flex;
     width: 100%;
+    height: auto;
+    justify-content: center;
 }
 .form__header, form {
     display: block;
@@ -33,10 +35,14 @@
     font-size: 20px;
     text-align: center;
 }
-.form {
-    display:block;
+#form {
+    display: block;
+}
+.form__field {
+    margin-left: 45%;
 }
 .request__form__button__text {
+    margin-left: 45.7%;
     display: inline-block;
     vertical-align: top;
     padding: .7rem .7rem;
