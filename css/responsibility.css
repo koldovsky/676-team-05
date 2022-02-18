@@ -29,6 +29,7 @@
     vertical-align: middle;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-weight: 400;
 }
 .responsibility-first__safe {
     font-family: "Ubuntu" , sans-serif ;
@@ -188,4 +189,37 @@ esponsibility-first__contatact-buttom:hover {
     color: rgb(137, 137, 137);
     margin-bottom: 20px;
     margin-top: 10px;
+}
+.responsibility-third__revue-quality {
+    font-size: 24px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+}
+.responsibility-third__revue-figure {
+    font-weight: bold;
+    font-size: 70px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    color: var(--main-blu);
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: auto;
+}
+.responsibility-first__contatact-buttom {
+    font-size: 16,5px;
+    font-weight: 700;
+    color: #fff;
+    font-stretch: 100%;
+    background-color: var(--main-blu);
+    padding: 15 px 15px;
+    border-radius: 30px;
+    margin-left: 25px;
+    position: relative;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.responsibility-first__contatact-buttom:hover {
+    background-color: var(--main-text-color);
 }
