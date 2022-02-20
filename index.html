@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -206,44 +210,52 @@
         </div>
         <div class="info">Every day, dozens of people go to work or travel by cars rented with FASTCAR.
         </div>
+        <div id="carousel">
+            <div class="carousel-element">
+                <div class="carousel-flex">
+                    <img class="customer-photo" src=" img/jane_mccallan.png" alt="Jane McCallan">
+                    <div class="user-name">Jane McCallan</div>
+                    <div class="user-post">
+                        Marketing Director at Pepsi Co.
+                    </div>
+                    <div class="user-feedback">I am completely satisfied with the services of this company. I often rent cars with
+                        FASTCAR
+                        for business meetings, driving to work, etc. I am pleased with the excellent technical condition of the
+                        cars,
+                        favorable rental conditions. And the staff is always friendly.
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-element">
+                <div class="carousel-flex">
+                    <img class="customer-photo" src="img/daniel_gordons.png" alt="Daniel Gordons">
+                    <h4 class="user-name">Daniel Gordons</h4>
+                    <div class="user-post">CEO at MyVent
+                    </div>
+                    <div class="user-feedback">When I was driving to one of the most important meetings in my life, my car broke
+                        down...
+                        Only a few hours remained, and a new car was urgently needed. Thanks to the FASTCAR specialists, I managed
+                        to quickly rent a luxury car. They immediately solved my problem.
+                    </div>
+                </div> 
+            </div>
+            <div class="carousel-element">
+                <div class="carousel-flex">
+                    <img class="customer-photo" src="img/elizabeth_smith.png" alt="Elizabeth Smith">
+                    <h4 class="user-name">Elizabeth Smith</h4>
+            
+                    <div class="user_post">Director of Media at Legal Company
+                    </div>
+            
+                    <div class="user_feedback">I love sports cars and fast driving but I can’t buy such a car, it's too expensive.
+                        Therefore, sometimes I rent sports cars to enjoy the speed. I choose this company because of the attractive
+                        pricing policy and a wide selection of luxury vehicles.
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-
-    <div class="carousel-element">
-        <img class="customer-photo" src=" img/jane_mccallan.png" alt="Jane McCallan">
-        <h4 class="user-name">Jane McCallan</h4>
-        <div class="user-post">
-            Marketing Director at Pepsi Co.
-        </div>
-        <div class="user-feedback">I am completely satisfied with the services of this company. I often rent cars with
-            FASTCAR
-            for business meetings, driving to work, etc. I am pleased with the excellent technical condition of the
-            cars,
-            favorable rental conditions. And the staff is always friendly.
-        </div>
-    </div>
-    <div class="carousel-element">
-        <img class="customer-photo" src="img/daniel_gordons.png" alt="Daniel Gordons">
-        <h4 class="user-name">Daniel Gordons</h4>
-        <div class="user-post">CEO at MyVent
-        </div>
-        <div class="user-feedback">When I was driving to one of the most important meetings in my life, my car broke
-            down...
-            Only a few hours remained, and a new car was urgently needed. Thanks to the FASTCAR specialists, I managed
-            to quickly rent a luxury car. They immediately solved my problem.
-        </div>
-    </div>
-    <div class="carousel-element">
-        <img class="customer-photo" src="img/elizabeth_smith.png" alt="Elizabeth Smith">
-        <h4 class="user-name">Elizabeth Smith</h4>
-
-        <div class="user_post">Director of Media at Legal Company
-        </div>
-
-        <div class="user_feedback">I love sports cars and fast driving but I can’t buy such a car, it's too expensive.
-            Therefore, sometimes I rent sports cars to enjoy the speed. I choose this company because of the attractive
-            pricing policy and a wide selection of luxury vehicles.
-        </div>
-    </div>
+    <script>$("#carousel").slick()</script> 
     <!--Makarov's block end-->
 
     <!--Anna's block start-->
